@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>
+      variables
+    </title>
+  </head> 
+  <body> 
+    <script> 
+      // this is a comment 
+      // this code creates a pop up window  
+      // alert('pop up hello'); 
+      /* 
+        multi 
+        line 
+        comment 
+      */ 
+     let x = 3;
+     // displays 3 in the console
+     console.log(x);
+     let sum = 2 + 2;
+     // displays sum
+     console.log(sum);
+     // returns 6
+     console.log(sum + 2);
+
+     let result = sum + 2;
+     console.log(result);
+     let string = 'hello';
+     console.log(string);
+     /*
+      let assigns a variable
+        variable name cannot start with a number
+        no special characters except $name and _name
+      semi colon
+        period in english 
+        end of an instruction
+        without it there would be a syntax error
+        semi colon insertion 
+          javascript adds the last semi colon automatically
+          can sometimes put it in wrong place so best to always use it
+     */
+
+     /* 
+        re-assigning variable value
+          let not needed
+     */
+     x = 7;
+     console.log(x);
+
+     x = x + 1;
+     console.log(x);
+    </script> 
+  </body> 
+</html> 

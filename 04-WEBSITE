@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title> 
+      Browser Tab Title 
+    </title> 
+    <style> 
+      /* 
+        this is a comment 
+      */ 
+      .green-button { 
+        background-color: green; 
+        color: white; 
+        border: none; 
+      } 
+      .red-button { 
+        background-color: red; 
+        color: white; 
+        border: none; 
+        } 
+    </style> 
+  </head> 
+  <body> 
+    <!--  
+      this is a comment 
+    --> 
+    <p>
+      <button title="Good job!" class="red-button" onclick="  
+        alert('good job!'); 
+      "> 
+        trigger 'Good job!' alert 
+      </button> 
+      <button title="Good job!" class="green-button"> 
+        hello 
+      </button> 
+    </p>
+    <script> 
+      // this is a comment 
+      // this code creates a pop up window  
+      // alert('pop up hello'); 
+      /* 
+        multi 
+        line 
+        comment 
+      */ 
+      console.log(2 + 2); 
+      console.log('some'+'text'); 
+    </script> 
+  </body> 
+</html> 
